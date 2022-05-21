@@ -53,7 +53,7 @@ namespace InterfaceVsPattern
             {
                 new Circle2D { Radius = 2},
                 new Rect2D { Width = 3, Height = 5},
-                new Rect2D { Width = 3, Height = 7},
+                new Rect2D { Width = 3, Height = 5},
                 new Circle2D { Radius = 6},
             };
 

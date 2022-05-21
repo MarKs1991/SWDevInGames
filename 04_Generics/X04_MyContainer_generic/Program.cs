@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace X04_MyContainer_generic
 {
-   public class MyContainer<T> : IEnumerable<T>
+    public class MyContainer<T> : IEnumerable<T>
     {
         private T[] _theObjects;
         private int _n;
@@ -73,6 +73,7 @@ namespace X04_MyContainer_generic
             {
                 Console.WriteLine($"Element at {i}: {container.GetAt(i)}");
             }
+
         }
     }
 }
